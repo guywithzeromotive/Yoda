@@ -1,0 +1,93 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/zero/Documents/Revolution/Yoda_Bot/Yoda_Bot.csproj": {}
+  },
+  "projects": {
+    "/home/zero/Documents/Revolution/Yoda_Bot/Yoda_Bot.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/zero/Documents/Revolution/Yoda_Bot/Yoda_Bot.csproj",
+        "projectName": "Yoda_Bot",
+        "projectPath": "/home/zero/Documents/Revolution/Yoda_Bot/Yoda_Bot.csproj",
+        "packagesPath": "/home/zero/.nuget/packages/",
+        "outputPath": "/home/zero/Documents/Revolution/Yoda_Bot/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/zero/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Firebase.Auth": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Firebase.SDK": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "FirebaseAdmin": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "FirebaseDatabase.net": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "Telegram.Bot": {
+              "target": "Package",
+              "version": "[22.4.4, )"
+            },
+            "dotenv.net": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
