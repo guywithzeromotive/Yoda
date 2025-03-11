@@ -36,3 +36,4 @@
 /home/zero/Documents/Revolution/Yoda_Bot/obj/Debug/net9.0/Yoda_Bot.pdb
 /home/zero/Documents/Revolution/Yoda_Bot/obj/Debug/net9.0/Yoda_Bot.genruntimeconfig.cache
 /home/zero/Documents/Revolution/Yoda_Bot/obj/Debug/net9.0/ref/Yoda_Bot.dll
+/home/zero/Documents/Revolution/Yoda_Bot/obj/Debug/net9.0/Yoda_Bot.sourcelink.json
