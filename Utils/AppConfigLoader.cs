@@ -58,7 +58,7 @@ namespace Yoda_Bot.Utils
 
         private void LoadBotConfig(AppConfig config)
         {
-            string configFilePath = "/app/bot_config.json";
+            string configFilePath = "./bot_config.json";
             Console.WriteLine($"Looking for config file at: {configFilePath}");
             Console.WriteLine($"Does file exist? {File.Exists(configFilePath)}");
 
