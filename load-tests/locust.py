@@ -2,14 +2,12 @@ from locust import HttpUser, task, between, User, FastHttpUser
 import random
 
 # --- Configuration ---
-user_bot_token="7579525382:AAEu7Pty8VBRcq499aH4MgvdS9WCby6Sst0"
-staff_bot_token = "8195032972:AAGZictGH-XKWyn29sy2hx_miD4HdEzmKS8"
 USER_BOT_WEBHOOK_URL = "YOUR_USER_BOT_WEBHOOK_URL_HERE"  # <--- REPLACE THIS!
 STAFF_BOT_WEBHOOK_URL = "YOUR_STAFF_BOT_WEBHOOK_URL_HERE" # <--- REPLACE THIS!
 EXISTING_TICKET_IDS_FOR_STAFF = ["TCK-000001", "TCK-000002", "TCK-000003"] # <--- REPLACE THESE WITH ACTUAL TICKET IDs!
 
 class YodaUserBotUser(FastHttpUser): # Using FastHttpUser for potentially higher load
-    host = "https://api.telegram.org/bot{user_bot_token}/" # <--- HOST ATTRIBUTE SET HERE!
+    host = "https://fe7d4d7b9eb6d465fdae56a0e8eb7d5c.serveo.net/" # <--- HOST ATTRIBUTE SET HERE!
     wait_time = between(1, 5)  # UserBot users might be less frequent
 
     def on_start(self):
@@ -48,7 +46,7 @@ class YodaUserBotUser(FastHttpUser): # Using FastHttpUser for potentially higher
          self.client.post("/", json={"update_type": "callback_query", "callback_query": {"data": "check_services", "from": {"id": self.user_id}, "message": {"chat": {"id": self.user_id}}}})
 
 class YodaStaffBotUser(FastHttpUser): # Using FastHttpUser for potentially higher load
-    host = "https://api.telegram.org/bot{staff_bot_token}/" # <--- HOST ATTRIBUTE SET HERE!
+    host = "https://fe7d4d7b9eb6d465fdae56a0e8eb7d5c.serveo.net/" # <--- HOST ATTRIBUTE SET HERE!
     wait_time = between(2, 7) # Staff might take longer to respond
 
     def on_start(self):

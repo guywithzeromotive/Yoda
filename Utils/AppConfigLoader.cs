@@ -58,7 +58,9 @@ namespace Yoda_Bot.Utils
 
         private void LoadBotConfig(AppConfig config)
         {
-            string configFilePath = "../bot_config.json"; // Now loading bot_config.json
+            string configFilePath = "/app/bot_config.json";
+            Console.WriteLine($"Looking for config file at: {configFilePath}");
+            Console.WriteLine($"Does file exist? {File.Exists(configFilePath)}");
 
             try
             {
@@ -67,10 +69,9 @@ namespace Yoda_Bot.Utils
                     throw new ConfigurationException($"Configuration file '{configFilePath}' not found.");
                 }
 
-                string jsonString = File.ReadAllText(configFilePath); // Synchronous read for startup
+                string jsonString = File.ReadAllText(configFilePath);
                 var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
 
-                // Deserialize directly to a dictionary to avoid BotConfig dependency
                 Dictionary<string, string>? botConfigFile = JsonSerializer.Deserialize<Dictionary<string, string>>(jsonString, options);
 
                 if (botConfigFile != null)

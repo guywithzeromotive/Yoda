@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Yoda_Bot")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+974bfc9af0bcbba979f3a55cc9023eb5c0457f89")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+51804ca3d1c6ecc323e1b9165c2d695c005f359e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Yoda_Bot")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Yoda_Bot")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
