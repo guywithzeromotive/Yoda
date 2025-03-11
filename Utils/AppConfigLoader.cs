@@ -58,7 +58,7 @@ namespace Yoda_Bot.Utils
 
         private void LoadBotConfig(AppConfig config)
         {
-            string configFilePath = "./bot_config.json"; // Now loading bot_config.json
+            string configFilePath = "bot_config.json"; // Now loading bot_config.json
 
             try
             {
