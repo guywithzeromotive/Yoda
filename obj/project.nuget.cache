@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "O3Q3IojrKt0=",
+  "dgSpecHash": "5kWXE7bddXE=",
   "success": true,
   "projectFilePath": "/home/zero/Documents/Revolution/Yoda_Bot/Yoda_Bot.csproj",
   "expectedPackageFiles": [
@@ -109,7 +109,10 @@
     "/home/zero/.nuget/packages/system.threading.timer/4.0.1/system.threading.timer.4.0.1.nupkg.sha512",
     "/home/zero/.nuget/packages/system.xml.readerwriter/4.0.11/system.xml.readerwriter.4.0.11.nupkg.sha512",
     "/home/zero/.nuget/packages/system.xml.xdocument/4.0.11/system.xml.xdocument.4.0.11.nupkg.sha512",
-    "/home/zero/.nuget/packages/telegram.bot/22.4.4/telegram.bot.22.4.4.nupkg.sha512"
+    "/home/zero/.nuget/packages/telegram.bot/22.4.4/telegram.bot.22.4.4.nupkg.sha512",
+    "/home/zero/.nuget/packages/microsoft.netcore.app.ref/8.0.13/microsoft.netcore.app.ref.8.0.13.nupkg.sha512",
+    "/home/zero/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.13/microsoft.aspnetcore.app.ref.8.0.13.nupkg.sha512",
+    "/home/zero/.nuget/packages/microsoft.netcore.app.host.linux-x64/8.0.13/microsoft.netcore.app.host.linux-x64.8.0.13.nupkg.sha512"
   ],
   "logs": []
 }

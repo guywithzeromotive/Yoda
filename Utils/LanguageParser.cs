@@ -25,7 +25,7 @@ namespace Yoda_Bot.Utils
 
         private async Task<Dictionary<string, string>> LoadLanguageFile(string languageCode) // Keep this private and async
         {
-            string filePath = $"./languages/{languageCode}.json";
+            string filePath = $"/app/languages/{languageCode}.json";
             if (!File.Exists(filePath))
             {
                 Console.WriteLine($"Error: Language file '{filePath}' not found.");
